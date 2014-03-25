@@ -1,0 +1,21 @@
+{
+	"name": "greeny/zip-php",
+	"description": "Easy zip archive manipulation.",
+	"homepage": "http://blatny.org",
+	"type": "project",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Tomáš Blatný",
+			"homepage": "http://blatny.org"
+		}
+	],
+	"require": {
+		"php": ">= 5.2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"greeny\\Zip\\" : "Zip-PHP"
+		}
+	}
+}
